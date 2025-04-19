@@ -11,6 +11,7 @@ public record PostProductRequest(
          String productName,
          String description,
          BigDecimal price,
+         int stock,
          String image_url,
          LocalDateTime createdAt,
          String createdBy,

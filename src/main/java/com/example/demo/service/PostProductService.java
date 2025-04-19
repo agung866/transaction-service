@@ -27,6 +27,7 @@ public class PostProductService {
                         .description(request.description())
                         .price(request.price())
                         .image_url(request.image_url())
+                        .stock(request.stock())
                         .createdAt(request.createdAt())
                         .createdBy(request.createdBy())
                         .updatedAt(request.updatedAt())

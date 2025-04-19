@@ -1,4 +1,4 @@
-CREATE TABLE product (
+CREATE TABLE schema_product.product (
     product_id SERIAL PRIMARY KEY,
     category_name VARCHAR(255) NOT NULL,
     product_name VARCHAR(255) NOT NULL,
